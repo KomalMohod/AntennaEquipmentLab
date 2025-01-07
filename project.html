@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antenna Lab Equipment</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #1a1a1a;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar button {
+            float: left;
+            display: block;
+            color: white;
+            padding: 16px 24px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 18px;
+            background-color: inherit;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .navbar button:hover {
+            background-color: #575757;
+        }
+
+        .navbar button.active {
+            background-color: #4CAF50;
+        }
+
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.5s;
+        }
+
+        .dropdown-btn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-btn:hover {
+            background-color: #45a049;
+        }
+
+        .dropdown-content {
+            display: none;
+            background-color: #f1f1f1;
+            position: relative;
+            min-width: 220px;
+            margin-top: 5px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .dropdown-content .dropdown-item {
+            padding: 12px;
+            color: #333;
+            text-decoration: none;
+            display: block;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .dropdown-content .dropdown-item:hover {
+            background-color: #ddd;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        /* Responsive design */
+        @media screen and (max-width: 768px) {
+            .navbar button {
+                width: 100%;
+            }
+
+            .tabcontent {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <button class="tablinks" onclick="openTab(event, 'overview')">Overview</button>
+        <button class="tablinks" onclick="openTab(event, 'signalGenerator')">Signal Generator</button>
+        <button class="tablinks" onclick="openTab(event, 'vectorAnalyzer')">Vector Analyzer</button>
+        <button class="tablinks" onclick="openTab(event, 'powerMeter')">Power Meter</button>
+    </div>
+
+    
+ <!-- Overview Tab Content (With images included, professional layout) -->
+<div id="overview" class="tabcontent" style="font-family: Arial, sans-serif; padding: 20px;">
+    <h2 style="text-align: center; color: #2c3e50;">Overview of Antenna Lab Equipment</h2>
+    <p style="font-size: 1.1em; line-height: 1.6; color: #34495e;">
+        In Antenna Lab Equipment, various instruments are used to measure and analyze the performance of antennas and other RF components. These include signal generators, vector analyzers, power meters, and more. Signal generators are used to generate RF signals for testing antennas, while vector analyzers are used to measure the characteristics of these signals, and power meters measure the RF power output.
+    </p>
+    
+    <h3 style="color: #2980b9;">History</h3>
+    <p style="font-size: 1.1em; line-height: 1.6; color: #34495e;">
+        Antennas have been fundamental to communication technology since the late 19th century. In 1887, Heinrich Hertz first demonstrated the existence of electromagnetic waves, paving the way for wireless communication. Guglielmo Marconi furthered this work in 1895, creating the first practical radio transmission system that utilized wire antennas. In the early 20th century, antennas were crucial for radio and radar systems. The first transatlantic radio transmission in 1912 used dipole antennas, and by the 1940s, specialized antennas, like parabolic reflectors, were developed for radar and satellite communication.The post-World War II period saw advancements with television broadcasting and mobile communication systems. Microwave antennas, for example, enabled satellite communication in the 1960s. The 1990s brought further innovation with the growth of wireless technologies like mobile phones and Wi-Fi. Today, antenna designs continue to evolve, supporting technologies like 5G, satellite communication, and advanced radar, playing a critical role in modern communication systems.
+    </p>
+    
+    <h3 style="color: #2980b9;">Types of Antennas:</h3>
+    <div class="antenna-grid" style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px; margin-top: 20px;">
+        <div class="antenna-item" style="width: 280px; text-align: center;">
+            <img src="https://5.imimg.com/data5/XV/HD/MY-20545300/gsm-2fgprs-wire-antenna-spring-antenna-2c-size-3a-3-meter-wire-500x500.jpg" alt="Wire Antenna" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p style="font-weight: bold; margin-top: 10px;">Wire Antennas</p>
+            <p style="font-size: 0.9em; color: #7f8c8d;">Simple antennas made from conducting wires, commonly used in basic communications systems.</p>
+        </div>
+        
+        <div class="antenna-item" style="width: 280px; text-align: center;">
+            <img src="https://www.miwv.com/wp-content/uploads/2024/03/258-12.png" alt="Lens Antenna" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p style="font-weight: bold; margin-top: 10px;">Lens Antennas</p>
+            <p style="font-size: 0.9em; color: #7f8c8d;">Use a dielectric lens to focus signals in a specific direction, often used in radar and satellite communications.</p>
+        </div>
+
+        <div class="antenna-item" style="width: 280px; text-align: center;">
+            <img src="https://electronicsdesk.com/wp-content/uploads/2020/07/horn-antenna-aperture.jpg" alt="Aperture Antenna" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p style="font-weight: bold; margin-top: 10px;">Aperture Antennas</p>
+            <p style="font-size: 0.9em; color: #7f8c8d;">Antennas that use a radiating aperture, such as horn or parabolic antennas, to direct energy.</p>
+        </div>
+
+        <div class="antenna-item" style="width: 280px; text-align: center;">
+            <img src="https://figures.semanticscholar.org/70e16c6565e6e9debbeea09c1631d88cc52b807e/2-Figure5-1.png" alt="Microstrip Antenna" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p style="font-weight: bold; margin-top: 10px;">Microstrip Antennas</p>
+            <p style="font-size: 0.9em; color: #7f8c8d;">Flat antennas designed on a printed circuit board, offering a low profile for applications where size is critical.</p>
+        </div>
+
+        <div class="antenna-item" style="width: 280px; text-align: center;">
+            <img src="https://www.ahsystems.com/catalog/images/SAS-530HS1.jpg" alt="Dipole Antenna" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            <p style="font-weight: bold; margin-top: 10px;">Dipole Antenna</p>
+            <p style="font-size: 0.9em; color: #7f8c8d;">One of the simplest and most common antenna types, consisting of two conductive elements and often used in basic radio communications.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+ <!-- Signal Generator Tab -->
+<div id="signalGenerator" class="tabcontent" style="font-family: Arial, sans-serif; padding: 20px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 20px;">Signal Generators</h2>
+
+    <!-- Dropdown Button for Types -->
+    <button class="dropdown-btn" onclick="toggleDropdown('signalGeneratorDropdown')" style="background-color: #2980b9; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px; font-size: 18px; margin-bottom: 20px; display: block; width: 100%; text-align: center;">Choose Signal Generator Type</button>
+
+    <!-- Dropdown Content -->
+    <div id="signalGeneratorDropdown" class="dropdown-content" style="display: none; padding: 10px; text-align: center;">
+        <button class="dropdown-item" onclick="showInfo('siglentTech')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px; font-size: 16px;">Siglent Technologies Signal Generators</button>
+        <button class="dropdown-item" onclick="showInfo('precisionSignal')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px; font-size: 16px;">Precision Signal Generators</button>
+        <button class="dropdown-item" onclick="showInfo('functionGenerators')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 12px 20px; cursor: pointer; border-radius: 5px; font-size: 16px;">Function Generators</button>
+    </div>
+
+    <!-- Siglent Technologies Signal Generators -->
+    <div id="siglentTech" style="display: none; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://m.media-amazon.com/images/I/71R30bwj6XL._AC_UF1000,1000_QL80_.jpg" alt="Siglent Technologies Signal Generator" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e;"><strong>Siglent Technologies Signal Generators:</strong> These signal generators offer precise frequency control and a range of waveform outputs suitable for a variety of RF testing applications. Their high performance ensures accurate and reliable signal generation, essential for accurate measurements in antenna testing. Ideal for use in antenna characterization and RF system testing.</p>
+    </div>
+
+    <!-- Precision Signal Generators -->
+    <div id="precisionSignal" style="display: none; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://valuetronics.com/cdn/shop/files/bkprec_4011a-new.jpg?v=1735291035&width=533" alt="Precision Signal Generator" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e;"><strong>Precision Signal Generators:</strong> Known for their ultra-low phase noise and high output power, precision signal generators are used in high-accuracy applications where stability is critical. They are commonly employed in advanced RF testing environments where accuracy and consistency are key to ensuring optimal antenna performance. Ideal for high-end testing scenarios where precision is required.</p>
+    </div>
+
+    <!-- Function Generators -->
+    <div id="functionGenerators" style="display: none; margin-top: 20px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://www.keysight.com/content/dam/keysight/en/img/prd/npx-function-generators/33600A-TRANSP-SHAD-06_1600x900.png?wid=388&hei=219&fmt=png-alpha&resMode=sharp2&op_sharpen=1" alt="Function Generator" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e;"><strong>Function Generators:</strong> Function generators are versatile and capable of generating various waveform types (sine, square, triangle, etc.), making them suitable for many general-purpose signal testing tasks. These generators are widely used in research, development, and field testing for a wide range of antenna systems, allowing engineers to test antenna performance with varying signal types and frequencies.</p>
+    </div>
+</div>
+
+
+
+<!-- Vector Analyzer Tab -->
+<div id="vectorAnalyzer" class="tabcontent" style="font-family: Arial, sans-serif; padding: 30px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px;">Vector Analyzers</h2>
+
+    <!-- Dropdown Button for Types -->
+    <button class="dropdown-btn" onclick="toggleDropdown('vectorAnalyzerDropdown')" style="background-color: #2980b9; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 18px; margin-bottom: 30px; display: block; width: 100%; text-align: center;">Select Vector Analyzer</button>
+
+    <!-- Dropdown Content -->
+    <div id="vectorAnalyzerDropdown" class="dropdown-content" style="display: none; padding: 10px; text-align: center;">
+        <button class="dropdown-item" onclick="showInfo('tekTTR500')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">Tektronix TTR500 Series</button>
+        <button class="dropdown-item" onclick="showInfo('anritsuMS4640B')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">Anritsu VectorStar MS4640B</button>
+        <button class="dropdown-item" onclick="showInfo('niPXIe5630')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">National Instruments PXIe-5630</button>
+    </div>
+
+    <!-- Tektronix TTR500 Series -->
+    <div id="tekTTR500" style="display: none; margin-top: 40px; padding: 30px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://www.tek.com/-/media/sites/default/files/datasheets/ttr500-series-vna/ttr500-series-vna-datasheet-en_us-18-l_1.jpg" alt="Tektronix TTR500 Series" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>Tektronix TTR500 Series:</strong> The TTR500 Series offers excellent dynamic range and supports both time-domain and frequency-domain analysis, making it ideal for antenna testing and RF circuit characterization. With its precision and versatility, it provides comprehensive results for advanced RF measurements.</p>
+    </div>
+
+    <!-- Anritsu VectorStar MS4640B -->
+    <div id="anritsuMS4640B" style="display: none; margin-top: 40px; padding: 30px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://www.tehencom.com/Companies/Anritsu/MS4640B_MS4642B_MS4644B_MS4645B_MS4647B/Anritsu_MS4640B_MS4642B_MS4644B_MS4645B_MS4647B_VectorStar_MS7838D.jpg" alt="Anritsu VectorStar MS4640B" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>Anritsu VectorStar MS4640B:</strong> Known for its versatility and accuracy, this analyzer offers superior performance, covering frequencies up to 43.5 GHz and featuring advanced multi-port measurement capabilities. It is ideal for high-precision RF measurements required in research and development.</p>
+    </div>
+
+    <!-- National Instruments PXIe-5630 -->
+    <div id="niPXIe5630" style="display: none; margin-top: 40px; padding: 30px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);">
+        <div style="text-align: center;">
+            <img src="https://www.dcsabb.com/wp-content/uploads/2023/07/33cd5701426a09f8248a.jpg" alt="National Instruments PXIe-5630" style="width: 80%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin-bottom: 20px;">
+        </div>
+        <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>National Instruments PXIe-5630:</strong> This high-performance vector analyzer integrates with PXI systems, enabling users to leverage advanced RF measurements for research and product development. It is designed to handle high-frequency signals and offer accuracy for testing complex systems.</p>
+    </div>
+</div>
+
+
+
+<!-- Power Meter Tab -->
+<div id="powerMeter" class="tabcontent" style="font-family: Arial, sans-serif; padding: 30px; background-color: #f9f9f9;">
+    <h2 style="text-align: center; color: #2c3e50; margin-bottom: 30px; font-size: 2.5em;">Power Meters</h2>
+
+    <!-- Dropdown Button for Types -->
+    <button class="dropdown-btn" onclick="toggleDropdown('powerMeterDropdown')" style="background-color: #2980b9; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 18px; margin-bottom: 30px; display: block; width: 100%; text-align: center;">Select Power Meter</button>
+
+    <!-- Dropdown Content -->
+    <div id="powerMeterDropdown" class="dropdown-content" style="display: none; padding: 10px; text-align: center;">
+        <button class="dropdown-item" onclick="showInfo('keysightE4416A')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">Keysight E4416A</button>
+        <button class="dropdown-item" onclick="showInfo('rohdeNRX')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">Rohde & Schwarz NRX Series</button>
+        <button class="dropdown-item" onclick="showInfo('bird5000XT')" style="display: block; margin: 10px 0; background-color: #3498db; color: white; border: none; padding: 14px 22px; cursor: pointer; border-radius: 6px; font-size: 16px;">Bird 5000-XT Series</button>
+    </div>
+
+    <!-- Power Meter Details -->
+    <div class="power-meter-info-container" style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 30px; margin-top: 30px;">
+
+        <!-- Keysight E4416A -->
+        <div id="keysightE4416A" style="display: none; flex: 1; min-width: 300px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="https://docs.alltest.net/inventory/Alltest-Agilent-Keysight-E4416A-26022.jpg" alt="Keysight E4416A" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            </div>
+            <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>Keysight E4416A:</strong> This power meter offers high precision in measuring both average and peak power, with an extended frequency range suitable for a wide range of applications. It is designed to meet the demands of demanding environments with high accuracy.</p>
+        </div>
+
+        <!-- Rohde & Schwarz NRX Series -->
+        <div id="rohdeNRX" style="display: none; flex: 1; min-width: 300px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="https://cdn.rohde-schwarz.com/image/products/test-and-measurement/meters-and-counters/rf-and-microwave-power-meters/power-meter-base-units/nrx/nrx-power-meter-front-high-rohde-schwarz_200_106192_320_180_3.jpg" alt="Rohde & Schwarz NRX Series" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            </div>
+            <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>Rohde & Schwarz NRX Series:</strong> Known for ultra-low uncertainty, this series offers comprehensive power measurements, including those for wideband signals, in the 9 kHz to 110 GHz range. The NRX Series is ideal for accurate and reliable measurements in challenging environments.</p>
+        </div>
+
+        <!-- Bird 5000-XT Series -->
+        <div id="bird5000XT" style="display: none; flex: 1; min-width: 300px; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); transition: transform 0.3s ease-in-out;">
+            <div style="text-align: center; margin-bottom: 20px;">
+                <img src="https://navair.com/wp-content/uploads/2020/01/Bird-5000-XT_sml.jpg" alt="Bird 5000-XT Series" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+            </div>
+            <p style="font-size: 16px; line-height: 1.6; color: #34495e; text-align: center; padding: 10px 20px; background-color: #f0f0f0; border-radius: 6px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);"><strong>Bird 5000-XT Series:</strong> The Bird 5000-XT Series power meter is designed for rugged field testing, providing real-time monitoring of power in a variety of test environments with high durability. It ensures reliability in demanding field applications and is perfect for continuous power measurement tasks.</p>
+        </div>
+    </div>
+
+    <!-- Additional Styling for Hover Effects -->
+    <style>
+        .power-meter-info-container div:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</div>
+
+
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+
+            // Hide all tabcontent elements
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Remove "active" class from all tabs
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+
+            // Show the clicked tab's content and add "active" class to the clicked tab
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+
+        function toggleDropdown(dropdownId) {
+            // Close all dropdowns
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            for (var i = 0; i < dropdowns.length; i++) {
+                if(dropdowns[i].id !== dropdownId){
+                    dropdowns[i].style.display = "none";
+                }
+            }
+
+            // Toggle the clicked dropdown
+            var dropdown = document.getElementById(dropdownId);
+            dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+        }
+
+        function showInfo(infoId) {
+            // Hide all information sections
+            var infoSections = document.querySelectorAll('[id^="overview"], [id^="siglentTech"], [id^="precisionSignal"], [id^="functionGenerators"], [id^="tekTTR500"], [id^="anritsuMS4640B"], [id^="niPXIe5630"], [id^="keysightE4416A"], [id^="rohdeNRX"], [id^="bird5000XT"]');
+            for (var i = 0; i < infoSections.length; i++) {
+                infoSections[i].style.display = "none";
+            }
+
+            // Show the clicked information
+            document.getElementById(infoId).style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
